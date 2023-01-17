@@ -2,19 +2,20 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&family=Rock+Salt&family=Rowdies:wght@700&display=swap');
+
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #353d1c   ;
-  --secondary-color: #283618 ;
+  --primary-color: #606c38   ;
+  --secondary-color: #043508 ;
   --accent1-color: #fefae0;
   --accent2-color: #dda15e;
   
 
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Rock salt", cursive;
+  --heading-font: 'Rowdies', cursive;
   --paragraph-font: Roboto, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -23,9 +24,9 @@ Fonts are separated by a & */
   --paragraph-color-on-white: black; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #ffeae0; /* paragraph text on a colored background */ 
   --paragraph-background-color: #606c38  ;
-  --nav-link-color: #606c38;
-  --nav-background-color: #dda15e;
-  --nav-hover-link-color: #fefae0;
+  --nav-link-color: #ffeae0;
+  --nav-background-color: #043508;
+  --nav-hover-link-color: #ffeae0;
   --nav-hover-background-color: #606c38;
 }
 
