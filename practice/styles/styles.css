@@ -1,10 +1,15 @@
-body {
+h1 {
   text-align: center;
 }
-nav {
+nav, footer {
+  text-align: center;
+}
+nav, footer {
   background-color: steelblue;
+  color: white;
   padding: 10px;
 }
+
 a {
   color: white;
   margin: 40px;
@@ -21,13 +26,34 @@ p {
 }
 footer {
   background-color: steelblue;
-  color: white;
+  color: white;  
+}
+footer p {
+  font-size: 20px;
+  margin: 20px auto;
 }
 .main-para {
   font-size: 1.5em;
   line-height: 1.5em;
+  width: 80%;
+  margin: 0 auto;
 }
 #active {
+  background-color: white;
+  color: steelblue;
+}
+img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+p {
+  width: 80%;
+}
+a {
+  font-size: 1.5em;
+}
+a:hover {
   background-color: white;
   color: steelblue;
 }
