@@ -1,21 +1,25 @@
-h1 {
-  text-align: center;
+
+nav{
+  background-color: steelblue;
+  padding: 25px;
 }
-nav, footer {
-  text-align: center;
-}
+
 nav, footer {
   background-color: steelblue;
   color: white;
   padding: 10px;
+  text-align: center;
 }
 
 a {
   color: white;
   margin: 40px;
+  padding: 25px;
 }
 h1 {
+  text-align: center;
   color: steelblue;
+  margin: 50px 0;
 }
 img {
   width: 800px;
@@ -31,12 +35,13 @@ footer {
 footer p {
   font-size: 20px;
   margin: 20px auto;
+  padding: 25px;
 }
 .main-para {
   font-size: 1.5em;
   line-height: 1.5em;
   width: 80%;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 #active {
   background-color: white;
@@ -56,4 +61,7 @@ a {
 a:hover {
   background-color: white;
   color: steelblue;
+}
+body{
+  margin: 0
 }

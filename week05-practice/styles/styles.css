@@ -1,0 +1,36 @@
+
+#main{
+    width: 100%;
+}
+#desk{
+    width: 20%;
+    display: inline;
+    border-radius: 50%;
+    margin: 63px;
+    border: 10px solid;
+    clear: both;
+    
+}
+#graphic{
+    width: 20%;
+    display: inline;
+    border-radius: 50%;
+    margin: 63px;
+    border: 10px solid;
+    
+}
+#person{
+    width: 20%;
+    display: inline;
+    border-radius: 50%;
+    margin: 63px;
+    border: 10px solid;
+    
+}
+#bakround{
+    background-color: gray;
+
+}
+#content{
+    background-color: gray;
+}
