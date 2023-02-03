@@ -8,7 +8,7 @@ content{
     margin: 0 auto;
     
 }
- #hero-msg h1, #hero-msg h4{
+ #hero-msg h1, #hero-msg{
     text-align: center;
     font-family: 'Rowdies', cursive,'Rock Salt';
 }
@@ -36,8 +36,8 @@ nav a:hover{
     background-color: #dda15e;
 }
 .book, .join{
-    background-color:#606c38 ;
-    color: #fefae0;
+    background-color:#fefae0 ;
+    color: #606c38;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -80,8 +80,10 @@ nav a:hover{
 }
 h4{
     color: #606c38;
+    text-align: center;
+    font-family: 'Rowdies', cursive,'Rock Salt';
 }
-.msg h2{
+.msg {
     color: #fefae0;
     font-family: Roboto, sans-serif, 'Rock Salt';
 }
@@ -110,7 +112,10 @@ h2{
     font-family: 'Rowdies', cursive,'Rock Salt';
     color: #606c38;
     margin: 0;
+    color: #fefae0;
+    font-family: Roboto, sans-serif, 'Rock Salt';
 }
+
 #logo_link{  
     padding-top: 5px;
 }
