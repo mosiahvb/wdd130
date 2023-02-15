@@ -12,14 +12,20 @@ content{
     text-align: center;
     font-family: 'Rowdies', cursive,'Rock Salt';
 }
+
 .button-box{
     text-align: center;
 }
 main section{
     text-align: center;
 }
-#background{
-    background-color: #fefae0 ;
+
+
+
+/* I can't seem to change the background color of my background.*/
+#background {
+    background-color: #dda15e ;
+    
     height: 725px;
 }
 body{
@@ -56,9 +62,7 @@ nav a:hover{
     background-color: #dda15e;
     color: #fefae0;
 }
-#background{
-    background-color: #dda15e;
-}
+
 .msg{
     background-color:#606c38 ;
     line-height: 1.5em;
@@ -135,7 +139,10 @@ footer a:hover{
     grid-row: 1/2;
 }
 #hero-msg h4 {
-    color: white;
+    color: #dda15e;
+}
+#hero-msg h1 {
+    color: #fefae0;
 }
 #hero-img{
     width: 100%;
@@ -155,6 +162,7 @@ h2{
     padding-top: 5px;
 }
 .icon{
+    width: 80px;
    padding-top: 10px;
 }
 footer .social img{
