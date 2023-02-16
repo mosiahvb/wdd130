@@ -35,6 +35,7 @@ body{
     padding: 0;
     
 }
+
 header{
     background-color:#606c38 ;
     display: grid;
@@ -202,6 +203,7 @@ main section img{
 #background{
     grid-column: 1/11;
     grid-row: 4/9;
+    
 }
 .mountains{
     width: 100%;
