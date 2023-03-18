@@ -1,0 +1,290 @@
+/* the home page css*/
+/*   Import the fonts   */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@700&family=Quicksand:wght@600&family=Roboto&family=Rock+Salt&family=Rowdies:wght@700&display=swap');
+
+
+/* Root rules to apply to all aspects of the CSS */
+:root {
+
+    --primary-color: #0d1b2a;
+    --secondary-color: #415a77;
+    --accent1-color: #778da9;
+    --accent2-color: #e0e1dd;
+
+
+    /* change the values below to your chosen font(s) */
+    --heading-font: Quicksand, Rowdies, Roboto ;
+    --paragraph-font: Playfair Display, Rowdies, Roboto ;
+
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #415a77;
+    /* headlines on a white background */
+    --headline-color-on-color: #e0e1dd;
+    /* headlines on a colored background */
+    --paragraph-color-on-white: #415a77;
+    /* paragraph text on a white background */
+    --paragraph-color-on-color: #e0e1dd;
+    /* paragraph text on a colored background */
+    --paragraph-background-color: #0d1b2a;
+    --nav-link-color: #0d1b2a;
+    --nav-background-color: #778da9;
+    --nav-hover-link-color: #e0e1dd;
+    --nav-hover-background-color: #0d1b2a;
+}
+
+/****************************************************************
+*
+* Default tag properties *
+*
+*****************************************************************/
+body {
+    font-family: var(--paragraph-font);
+    font-size: 20px;
+    color: var(--accent3-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+h1 {
+    background-color: #415a77;
+    color: #e0e1dd;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #e0e1dd;
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+h4 {
+    background-color: #415a77;
+    color: #e0e1dd;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+h6 {
+    font-size: .75em;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/****************************************************************
+* *
+* default properties for all pages *
+* *
+*****************************************************************/
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*  This rule name changes based upon the default button color   */
+.btn-blue {
+    background-color: var(--primary-color);
+    padding: 1em 2em;
+    color: var(--accent2-color);
+}
+
+.buttons {
+    grid-column: 1/-1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 30px;
+    border-radius: 20px;
+}
+
+/*  This is the default grid layout for all grids. Other grids can be defined as needed. */
+.grid-default {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 3em 0;
+}
+
+
+/****************************************************************
+* *
+* header area properties *
+* *
+*****************************************************************/
+header {
+    display: grid;
+    grid-template-columns: 250px auto;
+    align-items: center;
+    background-color: var(--accent2-color);
+}
+.logo{
+    grid-column:  ;
+}
+nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+    justify-items: center;
+}
+
+
+/*  HTML format for these next 2 rules
+*    <a class="nav-item" href="...">...</a>    */
+.nav-item {
+    color: var(--primary-color);
+    padding: 1em;
+}
+
+.nav-item:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+
+/****************************************************************
+* *
+* footer area properties *
+* *
+*****************************************************************/
+footer {
+    background-color: #0d1b2a;
+    color: var(--accent2-color);
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 5px;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+
+}
+
+.copyright{
+    grid-column: 1/5;
+    text-align: center;
+}
+
+.first-msg{
+    background-color: #415a77;
+    color: #e0e1dd;
+}
+
+.social-m{
+    grid-column: 9/12;
+    margin: auto;
+}
+
+
+/* weird wight cooler*/
+.site-plan a{
+    background-color: #0d1b2a;
+    color: #e0e1dd;
+}
+
+.msg1, .msg2, .msg3 {
+    padding: auto;
+    margin: auto;
+    background-color: #778da9;
+    text-align: center;
+    color: #fff;
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-row: 1/10;
+}
+.msg1{
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 1;
+    box-shadow: 5px 5px 5px 15px #0d1b2a;
+    padding: 5px  #e0e1dd;
+    padding-bottom: 35px;
+}
+.msg2{
+    width: 100%;
+    grid-column: 6/12;
+    grid-row: 2;
+    box-shadow: 5px 5px 5px 15px #0d1b2a;
+    padding: 5px  #e0e1dd;;
+    padding-bottom: 35px;
+    
+}
+.msg3{
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 3;
+    box-shadow: 5px 5px 5px 15px #0d1b2a;
+    padding: 5px  #e0e1dd;
+    padding-bottom: 35px;
+}
+
+.f1{
+    width: 90%;
+    height: 90% ;
+    grid-column: 7/12;
+    grid-row: 1;
+    margin: 5px;
+    border-style: inset #0d1b2a;
+    background-color: #0d1b2a;
+    padding: 5px;
+}
+.f2{
+    width: 100%;
+    height: 90% ;
+    grid-column: 2/7;
+    grid-row: 2;
+    border-style: inset #0d1b2a;
+    background-color: #0d1b2a;
+    padding: 5px;
+}
+
+.f3{
+    width: 90%;
+    height: 90% ;
+    grid-column: 7/12;
+    grid-row: 3;
+    margin: 5px;
+    border-style: inset #0d1b2a;
+    background-color: #0d1b2a;
+    padding: 5px;
+}
+main{
+    background-color: #415a77;
+}
+
+nav a{
+    color: #0d1b2a;
+    background-color: #778da9;
+    text-decoration: none;
+    padding: 10px;
+    border-style: ridge;
+}
