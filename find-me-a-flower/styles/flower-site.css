@@ -41,6 +41,7 @@ body {
     font-family: var(--paragraph-font);
     font-size: 20px;
     color: var(--accent3-color);
+    max-width: 100%;
 }
 
 h1,
@@ -177,6 +178,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     margin: 5px;
+    align-items: center;
 }
 
 .social {
